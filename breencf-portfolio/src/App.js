@@ -1,23 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Navbar } from "./Components/Navbar";
+import { Resume } from "./Components/Resume";
+import { ProjectList } from "./Components/ProjectList";
+import { ContactForm } from "./Components/ContactForm";
+import { Homepage } from "./Components/Homepage";
+import { Link, NavLink, Route, Switch } from "react-router-dom";
+import { BsLinkedin, BsGithub, BsSpotify, BsInstagram } from "react-icons/bs";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>christopher breen</h1>
+      <img
+        className="background-cabbage"
+        src="https://res.cloudinary.com/jadecabbage/image/upload/v1648847126/cabbage-green-no-bg_ddhgs7.png"
+      />
+      <Navbar />
+      <div className="main">
+        <Switch>
+          <Route exact path="/resume">
+            <Resume />
+          </Route>
+          <Route exact path="/projects">
+            <ProjectList />
+          </Route>
+          <Route exact path="/contact">
+            <ContactForm />
+          </Route>
+          <Route path="/">
+            <Homepage />
+          </Route>
+        </Switch>
+      </div>
+      <div>
+        JavaScript, React, Redux, React-Hooks, Google Maps API, Express, Python,
+        Flask, SQL, Node, git{" "}
+      </div>
+      <h3>
+        <BsLinkedin /> <BsGithub /> <BsSpotify />
+      </h3>
     </div>
   );
 }
