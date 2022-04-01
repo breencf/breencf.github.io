@@ -4,16 +4,24 @@ export const Navbar = () => {
   return (
     <nav id="nav">
       <li>
-        <NavLink activeClassName="active-nav" to="/">Home</NavLink>
+        <NavLink activeClassName="active-nav" exact to="/">
+          Home
+        </NavLink>
       </li>
       <li>
-        <NavLink activeClassName="active-nav" to="/resume">Resume</NavLink>
+        <NavLink activeClassName="active-nav" exact to="/resume">
+          Resume
+        </NavLink>
       </li>
       <li>
-        <NavLink activeClassName="active-nav" to="/projects">Projects</NavLink>
+        <NavLink activeClassName="active-nav" exact to="/projects">
+          Projects
+        </NavLink>
       </li>
       <li>
-        <NavLink activeClassName="active-nav" to="/contact">Contact</NavLink>
+        <NavLink activeClassName="active-nav" exact to="/contact">
+          Contact
+        </NavLink>
       </li>
     </nav>
   );

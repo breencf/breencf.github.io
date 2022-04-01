@@ -18,6 +18,9 @@ function App() {
       <Navbar />
       <div className="main">
         <Switch>
+        <Route exact path="/">
+            <Homepage />
+          </Route>
           <Route exact path="/resume">
             <Resume />
           </Route>
@@ -27,14 +30,14 @@ function App() {
           <Route exact path="/contact">
             <ContactForm />
           </Route>
-          <Route path="/">
+          <Route >
             <Homepage />
           </Route>
         </Switch>
       </div>
       <div>
         JavaScript, React, Redux, React-Hooks, Google Maps API, Express, Python,
-        Flask, SQL, Node, git{" "}
+        Flask, SQL, postgresql, Node, git{" "}
       </div>
       <h3>
         <BsLinkedin /> <BsGithub /> <BsSpotify />
