@@ -18,7 +18,7 @@ function App() {
       <Navbar />
       <div className="main">
         <Switch>
-        <Route exact path="/">
+          <Route exact path="/">
             <Homepage />
           </Route>
           <Route exact path="/resume">
@@ -30,7 +30,7 @@ function App() {
           <Route exact path="/contact">
             <ContactForm />
           </Route>
-          <Route >
+          <Route>
             <Homepage />
           </Route>
         </Switch>
@@ -40,7 +40,18 @@ function App() {
         Flask, SQL, postgresql, Node, git{" "}
       </div>
       <h3>
-        <BsLinkedin /> <BsGithub /> <BsSpotify />
+        <a href="https://linkedin.com/in/breencf">
+          <BsLinkedin />
+        </a>{" "}
+        <a href="https://github.com/breencf">
+          <BsGithub />
+        </a>{" "}
+        <a href="https://open.spotify.com/user/cfc4">
+          <BsSpotify />
+        </a>{" "}
+        <a href="https://instagram.com/breencf">
+          <BsInstagram />
+        </a>
       </h3>
     </div>
   );

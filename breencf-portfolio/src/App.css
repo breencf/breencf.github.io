@@ -53,10 +53,14 @@ a {
 
 a:hover,
 h1,
-.active-nav {
+.active-nav, h3 {
   color: #ff3049;
   padding: 0px;
   border-bottom: 2px solid #fad550;
+}
+
+.project-card {
+  width: 100%;
 }
 
 h1:hover {
