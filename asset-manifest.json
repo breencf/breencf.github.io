@@ -1,16 +1,13 @@
 {
   "files": {
-    "main.css": "/breencf.github.io/static/css/main.073c9b0a.css",
-    "main.js": "/breencf.github.io/static/js/main.0f280c44.js",
-    "static/js/787.3d3019f4.chunk.js": "/breencf.github.io/static/js/787.3d3019f4.chunk.js",
-    "static/media/logo.svg": "/breencf.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/breencf.github.io/static/css/main.55d5ead0.css",
+    "main.js": "/breencf.github.io/static/js/main.18037539.js",
     "index.html": "/breencf.github.io/index.html",
-    "main.073c9b0a.css.map": "/breencf.github.io/static/css/main.073c9b0a.css.map",
-    "main.0f280c44.js.map": "/breencf.github.io/static/js/main.0f280c44.js.map",
-    "787.3d3019f4.chunk.js.map": "/breencf.github.io/static/js/787.3d3019f4.chunk.js.map"
+    "main.55d5ead0.css.map": "/breencf.github.io/static/css/main.55d5ead0.css.map",
+    "main.18037539.js.map": "/breencf.github.io/static/js/main.18037539.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.0f280c44.js"
+    "static/css/main.55d5ead0.css",
+    "static/js/main.18037539.js"
   ]
 }
