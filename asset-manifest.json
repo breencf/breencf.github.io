@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/breencf.com/static/css/main.f794baf5.css",
-    "main.js": "/breencf.com/static/js/main.a9d627f7.js",
-    "index.html": "/breencf.com/index.html",
-    "main.f794baf5.css.map": "/breencf.com/static/css/main.f794baf5.css.map",
-    "main.a9d627f7.js.map": "/breencf.com/static/js/main.a9d627f7.js.map"
+    "main.css": "/breencf.github.io/static/css/main.f794baf5.css",
+    "main.js": "/breencf.github.io/static/js/main.a9d627f7.js",
+    "index.html": "/breencf.github.io/index.html",
+    "main.f794baf5.css.map": "/breencf.github.io/static/css/main.f794baf5.css.map",
+    "main.a9d627f7.js.map": "/breencf.github.io/static/js/main.a9d627f7.js.map"
   },
   "entrypoints": [
     "static/css/main.f794baf5.css",
