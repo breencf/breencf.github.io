@@ -6,11 +6,13 @@ import { ContactForm } from "./Components/ContactForm";
 import { Homepage } from "./Components/Homepage";
 import { Link, NavLink, Route, Switch } from "react-router-dom";
 import { BsLinkedin, BsGithub, BsSpotify, BsInstagram } from "react-icons/bs";
+import {useHistory} from 'react-router-dom'
 
 function App() {
+  const history = useHistory()
   return (
     <div className="App">
-      <h1>christopher breen</h1>
+      <h1 onClick={() => history.push("/")}>christopher breen</h1>
       <img
         className="background-cabbage"
         src="https://res.cloudinary.com/jadecabbage/image/upload/v1648847126/cabbage-green-no-bg_ddhgs7.png"
@@ -35,11 +37,8 @@ function App() {
           </Route>
         </Switch>
       </div>
-      <div>
-        JavaScript, React, Redux, React-Hooks, Google Maps API, Express, Python,
-        Flask, SQL, postgresql, Node, git{" "}
-      </div>
-      <h3>
+
+      <h2>
         <a href="https://linkedin.com/in/breencf">
           <BsLinkedin />
         </a>{" "}
@@ -49,10 +48,14 @@ function App() {
         <a href="https://open.spotify.com/user/cfc4">
           <BsSpotify />
         </a>{" "}
-        <a href="https://instagram.com/breencf">
+        <a href="https://instagram.com/grindrveltliner">
           <BsInstagram />
         </a>
-      </h3>
+      </h2>
+      <div className="stack">
+        JavaScript, React, Redux, React-Hooks, Google Maps API, Express, Python,
+        Flask, SQL, postgresql, Node, git{" "}
+      </div>
     </div>
   );
 }

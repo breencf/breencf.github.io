@@ -31,10 +31,23 @@
   z-index: -1;
 }
 
-body {
-  background-color: var(--green);
+html {
+  height: 100vh;
+  background: radial-gradient(
+      circle at 53.75% 57.22%,
+      #92de9f,
+      transparent 100%
+    ),
+    radial-gradient(circle at 29.58% 46.06%, rgb(20, 130, 17), transparent 100%),
+    radial-gradient(circle at 10.9% 9.78%, #ffffff, transparent 100%),
+    radial-gradient(circle at 85% 70.56%, rgb(20, 130, 17), transparent 100%),
+    radial-gradient(circle at 80.07% 35.76%, #ffffff, transparent 100%),
+    radial-gradient(circle at 50.42% 8.02%, #ffffff, transparent 100%),
+    radial-gradient(circle at 48.82% 95.11%, rgb(20, 130, 17), transparent 100%),
+    radial-gradient(circle at 8.75% 90.22%, #ffffff, transparent 100%),
+    radial-gradient(circle at 50% 50%, #000000, #000000 100%);
+  background-attachment: fixed;
 }
-
 h1 {
   font-family: "Playfair Display", "Didot", "Georgia", "Times New Roman";
   font-style: italic;
@@ -53,14 +66,20 @@ a {
 
 a:hover,
 h1,
-.active-nav, h3 {
+.active-nav,
+h2 {
   color: #ff3049;
   padding: 0px;
   border-bottom: 2px solid #fad550;
 }
 
+h3 {
+  color: white;
+}
+
 .project-card {
   width: 100%;
+  margin: 20px;
 }
 
 h1:hover {
@@ -109,4 +128,28 @@ h1:hover {
 #profile:hover {
   -webkit-filter: grayscale(0%);
   filter: grayscale(0%);
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.stack {
+  color: var(--forest);
+  margin-bottom: 5px;
+}
+
+.resume {
+  text-align: left !important;
+  width: 80%;
+}
+
+.resume-heading {
+  display: flex;
+  width: 100%;
+  align-items:center;
+  justify-content: space-between;
 }

@@ -10,10 +10,10 @@ export const Homepage = () => {
       <div className="right">
         <h3>Hi! I'm Chris.</h3>
         <p>
-          I'm a software engineer based in Brooklyn. You can check out
-          some of the languages and frameworks I'm comfortable with above, but I
-          will say I have a particular fondness for <em>React</em> and{" "}
-          <em>SQL</em>. Crazy, right?{" "}
+          I'm a software engineer based in Brooklyn. You can check out some of
+          the languages and frameworks I'm comfortable with above, but I will
+          say I have a particular fondness for <em>React</em> and <em>SQL</em>.
+          Crazy, right?{" "}
         </p>
         <p>
           Prior to Software Engineering, I worked in the Wine Industry, with
@@ -21,7 +21,12 @@ export const Homepage = () => {
           hospitality and restaurants. Wine is still a huge part of my life, so{" "}
           let's talk about it!
         </p>
-        <p>Some fun facts about me: in addition to English, I'm fluent in Mandarin Chinese and French, I'm a huge sports fan (Go Chelsea / trailblazers / Patriots / Lewis Hamilton!), and I love listening to and discovering music both new and old.</p>
+        <p>
+          Some fun facts about me: in addition to English, I'm fluent in
+          Mandarin Chinese and French, I'm a huge sports fan (Go Chelsea /
+          trailblazers / Patriots / Lewis Hamilton!), and I love listening to
+          and discovering music both new and old. I also <em>really</em> love the Jadeite Cabbage (崔玉白菜).
+        </p>
       </div>
     </>
   );

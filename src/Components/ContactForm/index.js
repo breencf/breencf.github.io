@@ -3,7 +3,7 @@ import { BsLinkedin, BsMailbox, BsGithub } from "react-icons/bs";
 export const ContactForm = () => {
   return (
     <div className="list">
-      <h1>Contact Me</h1>
+      <h3>Contact Me</h3>
       <p>
         You can find me on{" "}
         <a href="https://linkedin.com/in/breencf">LinkedIn</a>,{" "}
