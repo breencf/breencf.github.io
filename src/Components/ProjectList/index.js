@@ -127,7 +127,7 @@ export const ProjectList = () => {
             </a>
             {" || "}
             <a target="_blank" href="https://hammergram.herokuapp.com">
-              heroku
+              live site
             </a>
           </div>
         </div>

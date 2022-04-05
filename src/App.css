@@ -153,3 +153,7 @@ h1:hover {
   align-items:center;
   justify-content: space-between;
 }
+
+.pc-right {
+  width: 100%;
+}
