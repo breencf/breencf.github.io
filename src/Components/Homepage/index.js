@@ -25,7 +25,10 @@ export const Homepage = () => {
           Some fun facts about me: in addition to English, I'm fluent in
           Mandarin Chinese and French, I'm a huge sports fan (Go Chelsea /
           trailblazers / Patriots / Lewis Hamilton!), and I love listening to
-          and discovering music both new and old. I also <em>really</em> love the Jadeite Cabbage (崔玉白菜).
+          and discovering music both new and old. I also <em>really</em> love
+          the Jadeite Cabbage{" "}
+          <a href="https://en.wikipedia.org/wiki/Jadeite_Cabbage">(崔玉白菜)</a>
+          .
         </p>
       </div>
     </>
