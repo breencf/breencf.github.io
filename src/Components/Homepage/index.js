@@ -31,7 +31,7 @@ export const Homepage = () => {
             target="_blank"
             href="https://en.wikipedia.org/wiki/Jadeite_Cabbage"
           >
-            (崔玉白菜)
+            (翠玉白菜)
           </a>
           .
         </p>
