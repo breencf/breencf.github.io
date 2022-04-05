@@ -6,10 +6,10 @@ import { ContactForm } from "./Components/ContactForm";
 import { Homepage } from "./Components/Homepage";
 import { Link, NavLink, Route, Switch } from "react-router-dom";
 import { BsLinkedin, BsGithub, BsSpotify, BsInstagram } from "react-icons/bs";
-import {useHistory} from 'react-router-dom'
+import { useHistory } from "react-router-dom";
 
 function App() {
-  const history = useHistory()
+  const history = useHistory();
   return (
     <div className="App">
       <h1 onClick={() => history.push("/")}>christopher breen</h1>
@@ -39,16 +39,16 @@ function App() {
       </div>
 
       <h2>
-        <a href="https://linkedin.com/in/breencf">
+        <a target="_blank" href="https://linkedin.com/in/breencf">
           <BsLinkedin />
         </a>{" "}
-        <a href="https://github.com/breencf">
+        <a target="_blank" href="https://github.com/breencf">
           <BsGithub />
         </a>{" "}
-        <a href="https://open.spotify.com/user/cfc4">
+        <a target="_blank" href="https://open.spotify.com/user/cfc4">
           <BsSpotify />
         </a>{" "}
-        <a href="https://instagram.com/grindrveltliner">
+        <a target="_blank" href="https://instagram.com/grindrveltliner">
           <BsInstagram />
         </a>
       </h2>

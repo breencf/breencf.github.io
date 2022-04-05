@@ -40,9 +40,13 @@ export const ProjectList = () => {
             </li>
           </ul>
           <div>
-            <a href="https://github.com/breencf/spot-ify">Github</a>
+            <a target="_blank" href="https://github.com/breencf/spot-ify">
+              Github
+            </a>
             {" || "}
-            <a href="https://spot-ify.herokuapp.com">live site</a>
+            <a target="_blank" href="https://spot-ify.herokuapp.com">
+              live site
+            </a>
           </div>
         </div>
       </div>
@@ -88,9 +92,13 @@ export const ProjectList = () => {
             <li>Users an ACTUALLY book a tasting with Clos Rougeard?!?!?!?!</li>
           </ul>
           <div>
-            <a href="https://github.com/breencf/loire-bnb">Github</a>
+            <a target="_blank" href="https://github.com/breencf/loire-bnb">
+              Github
+            </a>
             {" || "}
-            <a href="https://loirebnb.herokuapp.com">Live site</a>
+            <a target="_blank" href="https://loirebnb.herokuapp.com">
+              Live site
+            </a>
           </div>
         </div>
       </div>
@@ -114,9 +122,13 @@ export const ProjectList = () => {
             <li>Explore page with randomized posts to discover new users</li>
           </ul>
           <div>
-            <a href="https://github.com/breencf/hammergram">Github</a>
+            <a target="_blank" href="https://github.com/breencf/hammergram">
+              Github
+            </a>
             {" || "}
-            <a href="https://hammergram.herokuapp.com">heroku</a>
+            <a target="_blank" href="https://hammergram.herokuapp.com">
+              heroku
+            </a>
           </div>
         </div>
       </div>
@@ -140,9 +152,16 @@ export const ProjectList = () => {
             <li>Stories, Comments, Likes and follows</li>
           </ul>
           <div>
-            <a href="https://github.com/daniellav/medium-for-mediums">Github</a>
+            <a
+              target="_blank"
+              href="https://github.com/daniellav/medium-for-mediums"
+            >
+              Github
+            </a>
             {" || "}
-            <a href="https://medium-for-mediums.herokuapp.com">live site</a>
+            <a target="_blank" href="https://medium-for-mediums.herokuapp.com">
+              live site
+            </a>
           </div>
         </div>
       </div>

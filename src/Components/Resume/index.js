@@ -134,7 +134,10 @@ export const Resume = () => {
           <h5>Jul 2016 - Aug 2016</h5>
         </div>
       )}
-      <a href="https://docs.google.com/document/d/1tPv9ratVMSyse6ypuMoM_A0qwt__1wo6iIjO8k5PoTY/edit?usp=sharing">
+      <a
+        target="_blank"
+        href="https://docs.google.com/document/d/1tPv9ratVMSyse6ypuMoM_A0qwt__1wo6iIjO8k5PoTY/edit?usp=sharing"
+      >
         <h2>Click here for a pdf</h2>
       </a>
     </div>

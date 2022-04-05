@@ -6,12 +6,21 @@ export const ContactForm = () => {
       <h3>Contact Me</h3>
       <p>
         You can find me on{" "}
-        <a href="https://linkedin.com/in/breencf">LinkedIn</a>,{" "}
-        <a href="https://angel.co/u/breencf">AngelList</a>, and{" "}
-        <a href="https://github.com/breencf">github</a>, but if you'd rather go
-        old school with an email, shoot your shot! I love talking to people.
+        <a target="_blank" href="https://linkedin.com/in/breencf">
+          LinkedIn
+        </a>
+        ,{" "}
+        <a target="_blank" href="https://angel.co/u/breencf">
+          AngelList
+        </a>
+        , and{" "}
+        <a target="_blank" href="https://github.com/breencf">
+          github
+        </a>
+        , but if you'd rather go old school with an email, shoot your shot! I
+        love talking to people.
       </p>
-      <a href="mailto:breencf@gmail.com">
+      <a target="_blank" href="mailto:breencf@gmail.com">
         <h1>
           <BsMailbox />
         </h1>

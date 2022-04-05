@@ -27,7 +27,12 @@ export const Homepage = () => {
           trailblazers / Patriots / Lewis Hamilton!), and I love listening to
           and discovering music both new and old. I also <em>really</em> love
           the Jadeite Cabbage{" "}
-          <a href="https://en.wikipedia.org/wiki/Jadeite_Cabbage">(崔玉白菜)</a>
+          <a
+            target="_blank"
+            href="https://en.wikipedia.org/wiki/Jadeite_Cabbage"
+          >
+            (崔玉白菜)
+          </a>
           .
         </p>
       </div>
