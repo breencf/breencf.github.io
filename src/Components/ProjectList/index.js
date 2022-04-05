@@ -95,7 +95,12 @@ export const ProjectList = () => {
         </div>
       </div>
       <div className="project-card">
-        <div className="pc-left">image to come of hammergram</div>
+        <div className="pc-left">
+          <img
+            className="project-gif"
+            src="https://hammergram.s3.amazonaws.com/hammergram.gif"
+          ></img>
+        </div>
         <div className="pc-right">
           <h3>Hammergram</h3>
           <h4>
